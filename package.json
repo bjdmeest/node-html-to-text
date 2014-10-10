@@ -3,8 +3,7 @@
   "version": "0.1.0",
   "description": "Advanced html to plain text converter",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "author": {
     "name": "Malte Legenhausen",
     "email": "legenhausen@werk85.de"
@@ -27,7 +26,7 @@
     "htmlparser": "1.x.x",
     "underscore": "1.x.x",
     "underscore.string": "2.x.x",
-    "optimist": "0.x.x" 
+    "optimist": "0.x.x"
   },
   "keywords": [
     "html",
@@ -37,10 +36,13 @@
     "plain",
     "converter"
   ],
-  "engines": { 
-    "node": "~0.8.0" 
+  "engines": {
+    "node": "~0.8.0"
   },
   "bin": {
     "html-to-text": "./bin/cli.js"
+  },
+  "devDependencies": {
+    "chai": "~1.9.2"
   }
 }
